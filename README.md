@@ -12,7 +12,7 @@ So I sat down one night and created this **Dev Landing Page**. Feel free to fork
 
 ## Themes
 
-Dev Landing Page comes in 9 **material themes**.
+Dev Landing Page comes in 9 **material themes** but only one is currently being developed.
 
 ![Material Theme](https://i.ibb.co/GcR8GXC/2020-01-16-151204-1334x668-scrot.png)
 

@@ -1,0 +1,26 @@
+/* Theme */
+
+main {
+	background: #FFEB3B;
+	color: #1E1E1E;
+}
+
+.icons-social a {
+	color: #1E1E1E;
+}
+
+.icons-social a svg path{
+	fill: #1E1E1E;
+}
+
+.vr {
+	fill: #1E1E1E;
+}
+
+.vr-top {
+	fill: #1E1E1E;
+}
+
+.email_ver {
+	fill: #1E1E1E;
+}

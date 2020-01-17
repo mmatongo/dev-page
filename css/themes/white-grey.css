@@ -1,0 +1,25 @@
+/* Theme */
+
+main {
+	background: #EDEDED;
+	color: #4B5658;
+}
+
+.icons-social a {
+	color: #4B5658;
+}
+
+.icons-social a svg path{
+	fill: #4B5658;
+}
+.vr {
+	fill: #4B5658;
+}
+
+.vr-top {
+	fill: #4B5658;
+}
+
+.email_ver {
+	fill: #4B5658;
+}

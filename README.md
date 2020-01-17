@@ -14,9 +14,9 @@ So I sat down one night and created this **Dev Landing Page**. Feel free to fork
 
 Dev Landing Page comes in 9 **material themes**.
 
-![9 Material Themes](https://image.ibb.co/jJVKCn/dev_landing_page_themes.jpg)
+![Material Theme](https://i.ibb.co/GcR8GXC/2020-01-16-151204-1334x668-scrot.png)
 
-If none of these themes fit within your taste, it's quite easy to customize and create your own too. 
+If none of these themes fit within your taste, it's quite easy to customize and create your own too.
 
 ## GitHub Pages
 
@@ -31,7 +31,7 @@ If you already have a GitHub profile (obviously)
 
 Voila! Your site should be live at `https://{username}.github.io`
 
-Here's my **Dev Landing Page** - [Dinesh Pandiyan - portfolio v1](https://portfoliov1.dineshpandiyan.com)
+Here's my **Dev Landing Page** - [Daniel M - portfolio v1](https://danielm.pw)
 
 ### Custom Domain
 
@@ -39,4 +39,4 @@ If you want to make your new landing page available under a domain like `{userna
 
 ## License
 
-MIT © Dinesh Pandiyan
+MIT © Daniel M. Matongo

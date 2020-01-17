@@ -4,11 +4,11 @@ Minimal landing page for developers.
 
 Developers don't talk much. Their code does all the talking. So here's a minimal landing page for developers.
 
-## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
+## Use
 
-I wanted a dev landing page to showcase everything I do online and I wanted it to be minimal and right to the point rather beautiful and hefty. And I think most of the devs out there would want the same.
+This originallyb started as me just wanting to make a cool looking portfolio page but ended up even better when I found a very basic simple template that allowed me to expand on it massively. I wanted a dev landing page to showcase everything I do online and I wanted it to be minimal, beautiful and right to the point rather and hefty. And I think most of the devs out there would want the same.
 
-So I sat down one night and created this **Dev Landing Page**. Feel free to fork, clone, play around and make this your own.
+As I said this is not my own work but is a fork, if you are the original creator kindly contact me and i'll attribute. As is the website has been heavily modified to suit my taste and will continue recieving upgrades until I come up with something better.
 
 ## Themes
 

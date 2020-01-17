@@ -1,0 +1,90 @@
+/*Hidden Elements on Mobile*/
+
+@media only screen and (max-width: 773px) {
+  .vl {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 773px) {
+  .vl-r {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 773px) {
+  .email_ver {
+    display: none;
+  }
+}
+
+/* Hide Icon Links*/
+
+@media only screen and (max-width: 420px) {
+  .fa-stack-overflow {
+    display: none;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .fa-medium {
+    display: none;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .fa-dev {
+    display: none;
+  }
+}
+@media only screen and (min-width: 773px) {
+  .fa-envelope {
+    display: none;
+  }
+}
+
+/* Hide Menu on Mobile*/
+@media only screen and (min-width: 773px) {
+  .ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 773px) {
+  .menu {
+    display: none;
+  }
+}
+
+/* Hide Dark Mode Switch on Mobile*/
+
+@media only screen and (max-width: 773px) {
+  .switch {
+    display: none;
+  }
+}
+@media only screen and (max-width: 773px) {
+  .inner-switch {
+    display: none;
+  }
+}
+
+/*Responsive Fonts*/
+
+@media (min-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}

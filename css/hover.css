@@ -1,0 +1,53 @@
+/* Icon hover effect */
+
+.fa-github:hover {
+  transform: scale(1);
+  -webkit-transform: scale(1.1);
+}
+.fa-twitter:hover {
+  transform: scale(1);
+  -webkit-transform: scale(1.1);
+  background-color: transparent;
+}
+.fa-dev:hover {
+  transform: scale(1);
+  -webkit-transform: scale(1.1);
+}
+.fa-stack-overflow:hover {
+  transform: scale(1);
+  -webkit-transform: scale(1.1);
+}
+.fa-medium:hover {
+  transform: scale(1);
+  -webkit-transform: scale(1.1);
+}
+.fa-envelope:hover {
+  transform: scale(1);
+  -webkit-transform: scale(1.1);
+}
+
+
+/*Menu Hover Items*/
+
+li a:hover:not(.active) {
+  color: #ffff;
+  transition: all 0.3s ease-in-out;
+}
+a:hover:not(.active) {
+  background-color: none;
+}
+
+/*Dark Mode Switch Hover*/
+
+.switch .inner-switch:hover:not(.active) {
+  color: #ffff;
+}
+.switch .inner-switch:hover:not(.active) {
+  background-color: none;
+}
+
+/*Email Hover*/
+.email_ver:hover {
+  transform: scale(1);
+  -webkit-transform: scale(1.1);
+}

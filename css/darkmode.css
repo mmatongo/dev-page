@@ -1,0 +1,41 @@
+/*Dark Mode*/
+.switch {
+  align-self: flex-end;
+  margin: 0.9375rem;
+  margin: 0px auto;
+  position: fixed;
+  left: 86px;
+  top: 0;
+  padding: 30px 16px;
+}
+.inner-switch {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 1.25rem;
+  width: 3.125rem;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.1875rem;
+  margin-left: 0.3125rem;
+}
+dark,
+.dark * {
+  background-color: #1e1e1e;
+  color: #ffeb3b;
+  border-color: #ffeb3b;
+  transition: all 0.3s ease-in-out;
+}
+.switch {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+    "Lucida Console", "Monaco", monospace;
+  text-transform: lowercase;
+  font-size: 10pt;
+  background-color: transparent;
+}
+.inner-switch {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+    "Lucida Console", "Monaco", monospace;
+  text-transform: lowercase;
+  font-size: 10pt;
+}

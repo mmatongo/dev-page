@@ -1,311 +1,120 @@
 /* Typography */
 
 html {
-	font-family: 'Roboto', sans-serif;
-}
-
-@media (min-width: 576px) {
-	html {
-		font-size: 14px;
-	}
-}
-
-@media (min-width: 768px) {
-	html {
-		font-size: 16px;
-	}
-}
-
-@media (min-width: 992px) {
-	html {
-		font-size: 18px;
-	}
-}
-
-@media (min-width: 1200px) {
-	html {
-		font-size: 20px;
-	}
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .icons-social i {
-	font-size: 3em;
+  font-size: 3em;
 }
 
 /* Custom Styles */
 
 main {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	justify-content: center;
-	padding: 0 30px;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  height: 0;
+  padding: 0 30px;
+  text-align: center;
+  background-color: transparent;
 }
-
 main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 3.75em;
+  font-weight: 600;
+  background-color: transparent;
 }
-
 main > .tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  font-weight: 100;
+  background-color: transparent;
 }
 
-
-/* Everything Else inbetween */
-
+/*Verticle Lines*/
 
 main > .vl {
-    width: 2px;
-    height: 90px;
-    background-color: rgb(30, 30, 30);
-    margin: 0px auto;
-    position: fixed;
-	left: 86px;
-	bottom: 0;
+  width: 2px;
+  height: 90px;
+  background-color: rgb(30, 30, 30);
+  margin: 0px auto;
+  position: fixed;
+  left: 86px;
+  bottom: 0;
 }
-
 main > .vl-r {
-    width: 2px;
-    height: 90px;
-    background-color: rgb(30, 30, 30);
-    margin: 0px auto;
-    position: fixed;
-	right: 86px;
-	bottom: 0;
+  width: 2px;
+  height: 90px;
+  background-color: rgb(30, 30, 30);
+  margin: 0px auto;
+  position: fixed;
+  right: 86px;
+  bottom: 0;
 }
 
-@media only screen and (max-width: 773px) {
-    .vl {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 773px) {
-    .vl-r {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 773px) {
-    .email_ver {
-        display: none;
-    }
-}
+/*Email Placement*/
 
 .email_ver {
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", "Monaco", monospace;
-	letter-spacing: 0.1em;
-	writing-mode: vertical-rl;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+    "Lucida Console", "Monaco", monospace;
+  letter-spacing: 0.1em;
+  writing-mode: vertical-rl;
   position: fixed;
-	right: 80px;
-	bottom: 110px;
-	color: black;
-	font-size: 12px;
-	transition: all .3s ease-in-out;
+  right: 80px;
+  bottom: 110px;
+  color: black;
+  font-size: 12px;
+  /*transition: all .3s ease-in-out;*/
 }
-
-.email_ver:hover {
-	transform: scale(1.0);
-	-webkit-transform: scale(1.1);
-}
-
 
 /* Icons */
 
 .icons-social i {
-	padding: 10px;
-	transition: all .3s ease-in-out;
+  padding: 10px;
+  /*transition: all .3s ease-in-out;*/
 }
-
 .devto {
-	margin-bottom: -0.20rem;
+  margin-bottom: -0.2rem;
 }
-
 .devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
-}
-
-
-/* Small Screen*/
-
-@media only screen and (max-width: 420px) {
-    .fa-stack-overflow {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-    .fa-medium{
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-    .fa-dev {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 773px) {
-    .fa-envelope {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 773px) {
-    .ul {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 773px) {
-	.menu {
-	  display: none;
-	}
- }
-
-/* Icon hover effect */
-
-.fa-github:hover {
-	transform: scale(1.0);
-	-webkit-transform: scale(1.1);
-}
-
-.fa-twitter:hover {
-	transform: scale(1.0);
-	-webkit-transform: scale(1.1);
-}
-
-.fa-dev:hover {
-	transform: scale(1.0);
-	-webkit-transform: scale(1.1);
-}
-
-.fa-stack-overflow:hover {
-	transform: scale(1.0);
-	-webkit-transform: scale(1.1);
-}
-
-.fa-medium:hover {
-	transform: scale(1.0);
-	-webkit-transform: scale(1.1);
-}
-
-.fa-envelope:hover {
-	transform: scale(1.0);
-	-webkit-transform: scale(1.1);
+  margin-bottom: -0.2rem;
+  margin-left: 0.675rem;
+  width: 2.65rem;
+  height: 2.65rem;
 }
 
 /*Menu*/
 
 ul {
-	position: fixed;
-	right: 80px;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: none;
-	float: right;
-	top: 0px;
-	font-size: 14px;
+  position: fixed;
+  right: 80px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+  float: right;
+  top: 0px;
+  font-size: 14px;
 }
-
 li {
-	float: right;
+  float: right;
 }
-
 li a {
-	font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", "Monaco", monospace;
-	display: block;
-	color: #242424;
-	text-align: center;
-	padding: 30px 16px;
-	text-decoration: none;
-	float: right;
-	top: 0px;
-	text-transform: uppercase;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+    "Lucida Console", "Monaco", monospace;
+  display: block;
+  color: #242424;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  float: right;
+  top: 0px;
+  text-transform: uppercase;
 }
-
-li a:hover:not(.active) {
-	color: #ffff;
-	transition: all .3s ease-in-out;
-}
-
-a:hover:not(.active) {
-	background-color: none;
-}
-
-.switch .inner-switch:hover:not(.active) {
-	color: #ffff;
-	transition: all .3s ease-in-out;
-}
-
-.switch .inner-switch:hover:not(.active) {
-	background-color: none;
-}
-
-
-/*Dark Mode*/
-.switch {
-    align-self: flex-end;
-    margin: 0.9375rem;
-		margin: 0px auto;
-		position: fixed;
-		left: 86px;
-		top: 0;
-		padding: 30px 16px;
-}
-.inner-switch {
-    display: inline-block;
-    cursor: pointer;
-    border: 1px solid #555;
-    border-radius: 1.25rem;
-    width: 3.125rem;
-    text-align: center;
-    font-size: 1rem;
-    padding: 0.1875rem;
-    margin-left: 0.3125rem;
-}
-
-dark,
-.dark * {
-    background-color: #1E1E1E;
-    color: #FFEB3B;
-    border-color: #FFEB3B;
-		transition: all .1s ease-out-in;
-}
-.switch {
-		font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", "Monaco", monospace;
-		text-transform: lowercase;
-		font-size: 10pt;
-}
-
-.inner-switch {
-		font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", "Monaco", monospace;
-		text-transform: lowercase;
-		font-size: 10pt;
-}
-
-@media only screen and (max-width: 773px) {
-    .switch {
-        display: none;
-    }
-}
-@media only screen and (max-width: 773px) {
-    .inner-switch {
-        display: none;
-    }
-}
-
 
 /*STICKY HEADER*/
 .menu {
@@ -316,7 +125,7 @@ dark,
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
 }
 
 /*Anchor link*/

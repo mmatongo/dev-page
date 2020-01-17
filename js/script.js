@@ -1,4 +1,6 @@
-/*$( ".inner-switch" ).on("click", function() {
+/*Dark Mode*/
+
+$( ".inner-switch" ).on("click", function() {
     if( $( "body" ).hasClass( "dark" )) {
       $( "body" ).removeClass( "dark" );
       $( ".inner-switch" ).text( "OFF" );
@@ -7,7 +9,11 @@
       $( ".inner-switch" ).text( "ON" );
     }
 })
-*/
+
+
+
+/*right click an ctrl+c*/
+
 document.addEventListener('contextmenu', event => event.preventDefault());
 
 /*Disable Highlight (Copy Paste)*/
@@ -51,3 +57,23 @@ function disableSelectCopy(e) {
 }
 
 document.onkeydown = disableSelectCopy;
+
+
+/* STICKY HEADER*/
+
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var menu = document.getElementById("header");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}

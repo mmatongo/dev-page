@@ -101,7 +101,7 @@ main > .vl-r {
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", "Monaco", monospace;
 	letter-spacing: 0.1em;
 	writing-mode: vertical-rl;
-    position: fixed;
+  position: fixed;
 	right: 80px;
 	bottom: 110px;
 	color: black;
@@ -255,8 +255,7 @@ a:hover:not(.active) {
 
 
 /*Dark Mode*/
-
-/*.switch {
+.switch {
     align-self: flex-end;
     margin: 0.9375rem;
 		margin: 0px auto;
@@ -295,6 +294,29 @@ dark,
 		text-transform: lowercase;
 		font-size: 10pt;
 }
-*/
 
-/*test*/
+@media only screen and (max-width: 773px) {
+    .switch {
+        display: none;
+    }
+}
+@media only screen and (max-width: 773px) {
+    .inner-switch {
+        display: none;
+    }
+}
+
+
+/*STICKY HEADER*/
+.menu {
+  padding: 10px 16px;
+  background: transparent;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/*Anchor link*/
